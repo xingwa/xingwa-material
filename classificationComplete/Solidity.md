@@ -9,6 +9,9 @@
 
 [以太坊是什么 - 以太坊开发入门指南](https://www.cnblogs.com/tinyxiong/p/7878468.html)
 
+[基于智能合约建立标准代币](https://blog.csdn.net/rectsuly/article/details/79046493)
+
+
 
 
 
