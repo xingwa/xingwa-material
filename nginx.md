@@ -1,5 +1,5 @@
 ### Nginx配置中的log_format用法梳理
-
+```
 
 nginx服务器日志相关指令主要有两条：一条是log_format，用来设置日志格式；另外一条是access_log，用来指定日志文件的存放路径、格式和缓存大小，可以参加ngx_http_log_module。一般在nginx的配置文件中日记配置(/usr/local/nginx/conf/nginx.conf)。
 
@@ -43,22 +43,6 @@ log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
                   '"$http_user_agent" "$http_x_forwarded_for"';
 想要记录更详细的信息需要自定义设置log_format，具体可设置的参数格式及说明如下：
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
 参数                      说明                                         示例
 $remote_addr             客户端地址                                    211.28.65.253
 $remote_user             客户端用户名称                                --
@@ -97,3 +81,5 @@ error_log   logs/wiki_error.log;
 112.116.25.18 - [11/Aug/2017:09:57:24 +0800] "POST /json/startheartbeatactivity.action HTTP/1.1" 200 234 "http://wiki.wang-inc.com/pages/resumedraft.action?draftId=12058756&draftShareId=014b0741-df00-4fdc-90ca-4bf934f914d1" Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 - 0.023 0.023 12.129.120.121:8090 200
 
 ***************当你发现自己的才华撑不起野心时，就请安静下来学习吧***************
+
+```
