@@ -35,9 +35,7 @@ $http_referer用于记录是从哪个页面链接访问过来的；
 $http_user_agent用于记录客户浏览器的相关信息。
 一般来说：nginx的log_format有很多可选的参数用于指示服务器的活动状态，默认的是：
 
-1
-2
-3
+
 log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
                   '$status $body_bytes_sent "$http_referer" '
                   '"$http_user_agent" "$http_x_forwarded_for"';
@@ -61,16 +59,13 @@ $request_time            整个请求的总时间                               
 $upstream_response_time  请求过程中，upstream响应时间                    0.002
 如下是在nginx的LB代理层使用过的一个配置（nginx.conf中配置）：
 
-1
-2
-3
+
 log_format  main  '$remote_addr $remote_user [$time_local] "$request" '
                   '$status $body_bytes_sent "$http_referer" '
                   '$http_user_agent $http_x_forwarded_for $request_time $upstream_response_time $upstream_addr $upstream_status';
 然后在nginx.conf文件或vhosts/*.conf文件中的access_log日志中指定级别为main。如下：
 
-1
-2
+
 access_log  logs/wiki_access.log main;
 error_log   logs/wiki_error.log;
 重启nginx服务后生效。日志截取如下（可以从日志中看到代理到后端哪台机器上的哪个端口上，负载访问的状态值等都能看到）：
