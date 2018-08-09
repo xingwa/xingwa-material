@@ -1,5 +1,12 @@
 ### Nginx配置中的log_format用法梳理
 ```
+# 依赖服务
+[root@baolin conf]#yum -y install pcre-devel openssl openssl-devel library
+
+# 编译安装 stream 组建
+./configure --prefix=/usr/local/nginx/ --with-http_stub_status_module --with-http_ssl_module --with-stream  --with-stream_ssl_module 
+
+
 
 nginx服务器日志相关指令主要有两条：一条是log_format，用来设置日志格式；另外一条是access_log，用来指定日志文件的存放路径、格式和缓存大小，可以参加ngx_http_log_module。一般在nginx的配置文件中日记配置(/usr/local/nginx/conf/nginx.conf)。
 
