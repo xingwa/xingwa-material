@@ -1,5 +1,7 @@
 
 [服务器二进制](https://www.cnblogs.com/redlight/p/3905326.html)
+[浏览器二进制](https://www.cnblogs.com/doublenet/p/4932672.html)
+
 
 ```
 !function (entrance) {
