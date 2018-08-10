@@ -3,6 +3,7 @@
 [浏览器二进制](https://www.cnblogs.com/doublenet/p/4932672.html)
 [WEBSOCKET二进制](https://segmentfault.com/a/1190000014109057?utm_source=index-hottest)
 [二进制类型](https://www.cnblogs.com/ajun/p/4173805.html)
+[node.js的buffer](http://www.runoob.com/nodejs/nodejs-buffer.html)
 
 ```
 <script>
