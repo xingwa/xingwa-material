@@ -4,7 +4,56 @@
 [WEBSOCKET二进制](https://segmentfault.com/a/1190000014109057?utm_source=index-hottest)
 [二进制类型](https://www.cnblogs.com/ajun/p/4173805.html)
 
+```
+<script>
 
+const buffer = new ArrayBuffer(64);
+
+alert(buffer.byteLength); // 结果为8
+
+  //  var buffer = req.response;
+        //    var dataView = new DataView(buffer);
+         //   alert(dataView.getFloat32(0));
+var dv = new DataView(buffer);
+dv.setUint32(0,1999999);
+dv.setUint32(32,888);
+
+alert(dv.getUint32(0))
+alert(dv.getUint32(32))
+
+
+
+
+var blob = new Blob(['中文字符串'], {
+    type: 'text/plain'
+});
+//将Blob 对象转换成 ArrayBuffer
+var reader = new FileReader();
+reader.readAsArrayBuffer(blob);
+reader.onload = function (e) {
+   // console.info(reader.result); //ArrayBuffer {}
+    //经常会遇到的异常 Uncaught RangeError: byte length of Int16Array should be a multiple of 2
+    //var buf = new int16array(reader.result);
+    //console.info(buf);
+
+    //将 ArrayBufferView  转换成Blob
+    var buf = new DataView(reader.result);
+   // console.info(buf); //DataView {}
+    reader.readAsText(new Blob([buf]), 'utf-8');
+    reader.onload = function () {
+        console.info(reader.result); //中文字符串
+    };
+}
+
+
+
+
+
+
+
+
+</script>
+```
 
 
 ```
