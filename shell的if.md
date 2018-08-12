@@ -1,3 +1,5 @@
+
+```
 一、if的基本语法:
 if [ command ];then
    符合该条件执行的语句
@@ -85,3 +87,5 @@ elif [ "$score" -le "100" ]&&[ "$score" -ge "85" ];then
 else
         echo "input score is wrong , the range is [0-100]!"
 fi
+
+```
