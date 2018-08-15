@@ -1,3 +1,4 @@
+```
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'   
 
 
@@ -81,3 +82,5 @@ tcp        0      0 aaaa:50419               192.168.12.13:mysql           ESTAB
 
 发现大量的TIME_WAIT 已不存在，mysql进程的占用率很快就降下来的，各网站访问正常！！
  以上只是暂时的解决方法，最后仔细巡查发现是前天新上线的一个系统，程序代码中没有使用mysql.colse()，才导致大量的mysql  TIME_WAIT 
+ 
+ ```
