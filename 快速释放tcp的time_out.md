@@ -1,3 +1,6 @@
+netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'   
+
+
 今天压力测试时， 刚开始出现了很多异常， 都是 java.net.NoRouteToHostException: Cannot assign requested address. 
 经网上查资料， 是由于linux分配的客户端连接端口用尽， 无法建立socket连接所致，虽然socket正常关闭，但是端口不是立即释放， 而是处于TIME_WAIT状态， 默认等待60s后才释放。
     查看linux支持的客户端连接端口范围, 也就是28232个端口： 
