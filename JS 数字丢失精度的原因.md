@@ -1,4 +1,6 @@
 ```
+https://www.cnblogs.com/snandy/p/4943138.html
+
 /**
  * floatObj 包含加减乘除四个方法，能确保浮点数运算不丢失精度
  *
