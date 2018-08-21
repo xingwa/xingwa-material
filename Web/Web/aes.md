@@ -8,5 +8,8 @@
 
 [PHP7  NODE.JS aes-256-cbc](https://blog.csdn.net/luo200618/article/details/52878523)
 
+[JAVA  NODE.JS aes-256-cbc](https://github.com/fukata/AES-256-CBC-Example)
+
+
 
 
