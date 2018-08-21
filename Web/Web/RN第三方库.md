@@ -24,6 +24,8 @@
 
 [android Kline 可以看下]https://github.com/gogooing/KLineChartDemo
 
+[股票、虚拟币交易k线图 科学计数法转数字字符串 科学计数法转数字字符串](https://github.com/xiaxiangfeng)
+
 
 
 
