@@ -18,6 +18,8 @@
 
 [ios相关K线类库](https://github.com/czhen09/ZXKline)
 
+[H5的K线](https://github.com/roshanca/stock-chart)
+
 
 
 
