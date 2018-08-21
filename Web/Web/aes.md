@@ -6,4 +6,7 @@
 
 [PHP 7以后](https://blog.csdn.net/u014231144/article/details/78774788)
 
+[PHP7  NODE.JS aes-256-cbc](https://blog.csdn.net/luo200618/article/details/52878523)
+
+
 
