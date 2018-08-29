@@ -10,7 +10,7 @@ QuoJS 是被设计来改变你写 JavaScript 的方式，一个5-6k的gzip压缩
 
 
 
-
+https://cookpete.com/react-player/（react-player）
 
 
 
