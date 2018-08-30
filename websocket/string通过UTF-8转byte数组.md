@@ -1,3 +1,5 @@
+### (JavaScript 之 ArrayBuffer) [https://www.cnblogs.com/copperhaze/p/6149041.html]
+
 ```
 <html>
 <head>
