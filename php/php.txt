@@ -1,0 +1,5 @@
+./configure --prefix=/usr/local/nginx/ --with-http_stub_status_module --with-http_ssl_module --with-stream  --with-stream_ssl_module 
+
+yum -y install libxslt libxslt-devel libmcrypt libmcrypt-devel libXpm-devel curl-devel bzip2 bzip2-devel libxml2 libxml2-devel install libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel pcre pcre-devel openssl openssl-devel
+
+--with-config-file-path=/usr/local/php/etc --prefix=/usr/local/php --with-zlib-dir --with-freetype-dir --enable-mbstring --with-libxml-dir=/usr --enable-soap --enable-calendar --with-curl --with-mcrypt --with-gd --disable-rpath --enable-inline-optimization --with-bz2 --with-zlib --enable-sockets --enable-sysvsem --enable-sysvshm --enable-pcntl --enable-mbregex --enable-exif --enable-bcmath --with-mhash --enable-zip --with-pcre-regex --with-mysql --with-pdo-mysql --with-mysqli --with-jpeg-dir=/usr --with-png-dir=/usr --enable-gd-native-ttf --with-openssl --with-fpm-user=www --with-fpm-group=www --with-libdir=/lib/x86_64-linux-gnu/ --enable-ftp --with-gettext --with-xmlrpc --with-xsl --enable-opcache --enable-fpm --with-iconv --with-xpm-dir=/usr
