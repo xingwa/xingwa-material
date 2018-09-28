@@ -13,3 +13,17 @@ https://blog.csdn.net/u011484013/article/details/51164773 （c#）
 
 https://repo1.maven.org/maven2/com/google/protobuf/protoc/ （文件下载）
 ```
+
+
+
+```
+syntax = "proto3";
+message UserInfo {
+   string name = 1;
+   int32 id = 2;
+   string email = 3;
+}
+
+protoc --js_out . userinfo.protoc
+
+```
