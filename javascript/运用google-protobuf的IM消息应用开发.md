@@ -25,5 +25,6 @@ message UserInfo {
 }
 
 protoc --js_out . userinfo.protoc
+protoc -I=. --java_out=. *.proto
 
 ```
