@@ -16,6 +16,8 @@ http://www.pansoso.com/a/1232321/  3.以太坊+solidity基础文档
 
 http://www.pansoso.com/a/1251865/ 谭老师以太坊详解及实战技术
 
+http://www.pansoso.com/g/594859/ （微信小程序）
+
 BitShare
 HyperLedger fabric
 Factom
