@@ -1,6 +1,6 @@
 ###
   TreeMap默认是升序的，如果我们需要改变排序方式
-
+https://www.cnblogs.com/liujinhong/p/6113183.html
 package com.atoomu.xingwa;
 
 import java.util.Comparator;
@@ -9,10 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
